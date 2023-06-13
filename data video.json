@@ -1,0 +1,63 @@
+[
+    {
+        "id":"1",
+        "nama_chanel":"Jonathan Liandi",
+        "thumbnail":"1.webp",
+        "pp":"1pp.jpg",
+        "judul":"Pertama Kalinya Mabar Bareng DIBO, Licin Parah Lancelotnya! - Mobile Legends",
+        "ditonton":"40 rb",
+        "waktu":"6 jam",
+        "kategori":["Game","Ditonton","Baru diupload"]
+
+    },
+    {
+        "id":"2",
+        "nama_chanel":"TRANS7 OFFICIAL",
+        "thumbnail":"2.webp",
+        "pp":"2pp.jpg",
+        "judul":"Kemeriahan Acara Selametan Umroh Wendi | LAPOR PAK! (24/05/23) Part 2",
+        "ditonton":"30 rb",
+        "waktu":"4 jam",
+        "kategori":["Komedi sketsa","Ditonton","Baru diupload"]
+    },
+    {
+        "id":"3",
+        "nama_chanel":"Medy Renaldy",
+        "thumbnail":"3.webp",
+        "pp":"3pp.jpg",
+        "judul":"UNBOXING ROBOT VECTOR YANG HARGANYA 14 JUTA! SECANGGIH APA SIH?",
+        "ditonton":"700 rb",
+        "waktu":"6 hari",
+        "kategori":["Game", "Ditonton"]
+    },
+    {
+        "id":"4",
+        "nama_chanel":"GadgetIn",
+        "thumbnail":"4.jpg",
+        "pp":"4pp.jpg",
+        "judul":"UNBOXING ROBOT VECTOR YANG HARGANYA 14 JUTA! SECANGGIH APA SIH?",
+        "ditonton":"1,7 jt",
+        "waktu":"1 hari",
+        "kategori":["Baru diupload","Ditonton"]
+    },
+    {
+        "id":"5",
+        "nama_chanel":"Deni Creator",
+        "thumbnail":"5.webp",
+        "pp":"5pp.jpg",
+        "judul":"Kembaran Nacing Dari India",
+        "ditonton":"26 rb",
+        "waktu":"3 jam",
+        "kategori":["Baru diupload","Komedi sketsa"]
+    },
+    {
+        "id":"6",
+        "nama_chanel":"BrandonKent Everything",
+        "thumbnail":"6.webp",
+        "pp":"6pp.jpg",
+        "judul":"EVOS BNER2 MENGULANGI M1! DARI 0-2 JADI 3-2! GG EVOS! GOODBYE GEEKSLATE!",
+        "ditonton":"500 rb",
+        "waktu":"1 bulan",
+        "kategori":["Game","Ditonton"]
+    }
+]

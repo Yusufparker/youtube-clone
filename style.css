@@ -1,0 +1,416 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+  
+nav{
+  background-color: white;
+}
+.navbar-container{
+    padding: 10px 25px;
+}
+  .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+
+  }
+  
+
+.yt-icon{
+    width: 90px;
+}
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
+.humberger-menu{
+    padding: 6px;
+
+}
+
+.humberger-menu:hover{
+    border-radius: 100%;
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.btn-telusuri{
+    border-color: grey;
+    border-radius: 30px;
+    color: black;
+}
+
+.btn-telusuri:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+
+}
+
+.input-group input{
+    border-radius: 30px;
+}
+
+
+.yt-icon2{
+    width: 25px;
+}
+
+.icon-kanan-nav a{
+    margin-left: 20px;
+}
+
+.img-pp{
+  width: 30px;
+  border-radius: 100%;
+}
+
+.nav-kiri{
+  width: 85px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  margin-top: -60px;
+  left: 0;
+}
+
+
+
+
+.nav-kiri .btn-nav-kiri svg{
+  margin: 0 auto;
+}
+.nav-kiri .btn-nav-kiri{
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 10px 1px 1px 1px;
+  border-radius: 10px;
+}
+
+.btn-nav-kiri:hover{
+  background-color: rgba(236, 230, 230, 0.845);
+}
+
+.nav-kiri .btn-nav-kiri p{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+
+.kategori{
+  overflow-x: auto;
+  margin-left: 85px;
+  padding: 10px;
+  padding-right: 40px;
+  background-color: white;
+}
+
+.cover-kategori{
+  margin-top: 50px;
+
+}
+
+
+.kategori-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
+  
+}
+
+
+.kategori-scroll::-webkit-scrollbar {
+  display: none;
+}
+.btn-kategori {
+  padding: 5px 15px;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(247, 245, 245);
+  font-size: 14px;
+  border-radius: 7px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.kategori-eksplorasi{
+  display: none;
+  padding: 5px;
+}
+
+.kategori-active{
+  background-color: black;
+  color: white;
+}
+
+.btn-kategori:hover{
+  background-color: rgb(231, 228, 228);
+}
+.kategori-active:hover{
+  background-color: black;
+
+}
+
+.content{
+  margin-top: 120px;
+  margin-left: 85px;
+  height: 1000px;
+}
+
+.card-video{
+  cursor: pointer;
+}
+
+.card-video:hover .img-tumbnail{
+  border-radius: 0;
+  transition: all .5s;
+}
+
+.card-video .img-tumbnail{
+  border-radius: 10px;
+}
+
+.img-pp-yt{
+  width: 40px;
+  border-radius: 100%;
+}
+
+.deskripsi-video{
+  font-weight: 500;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Jumlah baris maksimal */
+    -webkit-box-orient: vertical;
+    padding-right: 10px;
+}
+
+.text-video p{
+  margin-left: -10px;
+}
+
+.text-video .ket-video, .text-video .nama{
+  font-size: 14px;
+  color: rgb(94, 93, 93);
+}
+
+.text-video .ket-video{
+  margin-top: -16px;
+}
+
+.text-video .nama{
+  margin-top: -12px;
+}
+
+
+
+
+
+.offcanvas{
+  width: 250px !important;
+  background:  white;
+}
+.offcanvas-body{
+  padding: 10px 20px 20px 20px;
+}
+
+.offcanvas-body2 a {
+  text-decoration: none;
+  color: black;
+  padding:5px 10px;
+  margin-bottom: 5px;
+}
+
+.offcanvas-body2 a:hover{
+  background-color: rgb(244, 238, 238);
+  border-radius: 5px;
+}
+
+
+.offcanvas-body2 .a-active{
+  background-color: rgb(237, 236, 236);
+  border-radius: 5px;
+}
+
+.offcanvas-body2 .a-active span{
+  font-weight: 500;
+}
+
+.offcanvas-body2 a span{
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.offcanvas-body2 a img{
+  width: 25px;
+  border-radius: 100%;
+}
+
+.offcanvas-body2{
+  border-bottom: 1px solid rgb(219, 217, 217);
+  margin-bottom: 20px;
+}
+
+
+.offcanvas-footer a{
+  font-size: 13px;
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 3.8px;
+}
+
+
+.offcanvas-footer{
+  padding: 0 20px;
+}
+
+
+.offcanvas-footer div{
+  line-height: 1;
+}
+
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #585858;
+  border-radius: 6px;
+}
+
+
+.offcanvas-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.offcanvas-body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+  background-color: #8e8e8e;
+  border-radius: 6px;
+}
+
+.icon-responsive-mobile{
+  display: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .nav-kiri{
+    display: none;
+  }
+  .content{
+    margin: 120px auto 50px auto;
+  }
+
+  .kategori{
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .input-search{
+    display: none;
+  }
+
+  .btn-telusuri{
+    border: 0;
+    
+  }
+
+  .input-group{
+    justify-content: end;
+  }
+
+  .microphone{
+    margin-right: 20px;
+  }
+}
+
+
+@media (max-width: 420px){
+
+
+  .input-group, .microphone,.icon-responsive-desktop{
+    display: none;
+  }
+
+  .icon-responsive-mobile{
+    display: block;
+  }
+
+  .humberger-menu{
+    display: none;
+  }
+
+  .navbar-container{
+    padding: 10px 5px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    z-index: 100;
+  }
+
+  .nav-kiri{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    height: 60px;
+  }
+
+  .kategori-eksplorasi{
+    display: block;
+  }
+
+  .kategori-active{
+    background-color: rgb(66, 66, 66);
+  }
+
+
+}
